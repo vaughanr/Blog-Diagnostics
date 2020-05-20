@@ -30,6 +30,9 @@
       "commandName": "Docker",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/person/steve",
+      "environmentVariables": {
+        "COMPlus_DbgEnableMiniDump": "1"
+      },
       "publishAllPorts": true,
       "useSSL": true
     }
